@@ -1,5 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d0956ef-fab2-4924-9062-d9d0474c2020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/model/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/model/CategoryListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/model/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/api/v1/model/CustomerListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/bootStraps/BootStrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/repositories/CategoryRepositories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fruit_shop_rest/mvc/api/v1/mapper/CategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="159a63c8-1d87-4472-87f0-dea59bb472b7" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -7,9 +72,33 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectId" id="1xm0vp40y1h9qX74m2sK6RsUwjS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="fruit_shop_rest.mvc.services" />
+      <recent name="fruit_shop_rest.services" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -30,5 +119,104 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d0956ef-fab2-4924-9062-d9d0474c2020" name="Default Changelist" comment="" />
+      <created>1630945191016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630945191016</updated>
+      <workItem from="1630945192313" duration="3152000" />
+      <workItem from="1631019693710" duration="3080000" />
+      <workItem from="1631022853780" duration="294000" />
+      <workItem from="1631027414503" duration="5170000" />
+    </task>
+    <task id="LOCAL-00001" summary="starting the project.">
+      <created>1630945264428</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630945264428</updated>
+    </task>
+    <task id="LOCAL-00002" summary="starting the project.">
+      <created>1630945287502</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630945287502</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="starting the project." />
+    <option name="LAST_COMMIT_MESSAGE" value="starting the project." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1631032136167">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="527" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1631032136167" />
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1631031144884">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631031144884" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1631031144883">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1631031144883" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1631031144882">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1631031144882" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1631031144884">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1631031144884" />
+    <state width="1248" height="172" key="GridCell.Tab.1.bottom" timestamp="1631031144885">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631031144885" />
+    <state width="1248" height="172" key="GridCell.Tab.1.center" timestamp="1631031144884">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1631031144884" />
+    <state width="1248" height="172" key="GridCell.Tab.1.left" timestamp="1631031144884">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1631031144884" />
+    <state width="1248" height="172" key="GridCell.Tab.1.right" timestamp="1631031144885">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1631031144885" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1631019851512">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1631019851512" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1630945291893">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1630945291893" />
+    <state x="452" y="169" width="524" height="463" key="extract.method.dialog" timestamp="1631032311145">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="169" width="524" height="463" key="extract.method.dialog/72.27.1294.741@72.27.1294.741" timestamp="1631032311145" />
   </component>
 </project>
