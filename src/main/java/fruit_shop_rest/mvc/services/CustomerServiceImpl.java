@@ -3,6 +3,7 @@ package fruit_shop_rest.mvc.services;
 import fruit_shop_rest.mvc.api.v1.mapper.CustomerMapper;
 import fruit_shop_rest.mvc.api.v1.model.CustomerDTO;
 import fruit_shop_rest.mvc.domain.Customer;
+import fruit_shop_rest.mvc.exceptions.ResourceNotFoundException;
 import fruit_shop_rest.mvc.repositories.CustomerRepository;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +37,7 @@ public class CustomerServiceImpl implements CustomerService {
     public CustomerDTO findCustomerById(Long id) {
 
         return customerMapper.customerToCustomerDTO(
-                customerRepository.findById(id).orElseThrow(RuntimeException::new));
+                customerRepository.findById(id).orElseThrow(ResourceNotFoundException::new));
     }
 
     @Override
@@ -61,6 +62,30 @@ public class CustomerServiceImpl implements CustomerService {
         Customer customer = customerMapper.customerDTOToCustomer(customerDTO);
         customer.setId(id);
         return saveAndReturnDTO(customer);
+    }
+
+    @Override
+    public CustomerDTO patchCustomer(Long id, CustomerDTO customerDTO) {
+
+        return customerRepository.findById(id).map(customer -> {
+            if (customerDTO.getName() == null) {
+                customerDTO.setName(customer.getName());
+            }
+            if (customerDTO.getLastName() == null) {
+                customerDTO.setLastName(customer.getLastName());
+            }
+
+            return saveCustomerByDTO(id, customerDTO);
+        }).orElseThrow(ResourceNotFoundException::new);
+    }
+
+    @Override
+    public CustomerDTO deleteCustomer(Long id) {
+        final CustomerDTO customerDTO = customerMapper.customerToCustomerDTO(
+                customerRepository.findById(id).
+                        orElseThrow(ResourceNotFoundException::new));
+        customerRepository.deleteById(id);
+        return customerDTO;
     }
 
 

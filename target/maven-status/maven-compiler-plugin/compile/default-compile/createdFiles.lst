@@ -1,0 +1,7 @@
+fruit_shop_rest/mvc/repositories/CategoryRepositories.class
+fruit_shop_rest/mvc/api/v1/mapper/CategoryMapper.class
+fruit_shop_rest/mvc/MvcApplication.class
+fruit_shop_rest/mvc/bootStraps/BootStrap.class
+fruit_shop_rest/mvc/api/v1/model/CategoryDTO.class
+fruit_shop_rest/mvc/domain/Category.class
+fruit_shop_rest/mvc/api/v1/mapper/CategoryMapperImpl.class
