@@ -23,24 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0956ef-fab2-4924-9062-d9d0474c2020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/RestResponseEntityExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/api/v1/mapper/CategoryMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/api/v1/mapper/CustomerMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/controllers/v1/AbstractRestControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/controllers/v1/CategoryControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/controllers/v1/CustomerControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/services/CategoryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/services/CustomerServiceImplIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/services/CustomerServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fruit_shop_rest/mvc/spring5mvcrest/Spring5MvcRestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/controllers/v1/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruit_shop_rest/mvc/services/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fruit_shop_rest/mvc/api/v1/mapper/CategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fruit_shop_rest/mvc/api/v1/mapper/CategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/fruit_shop_rest/mvc/api/v1/mapper/CustomerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/fruit_shop_rest/mvc/api/v1/mapper/CustomerMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +95,7 @@
       <recent name="fruit_shop_rest.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in mvc">
+  <component name="RunManager" selected="Spring Boot.MvcApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -142,7 +142,7 @@
       <workItem from="1631019693710" duration="3080000" />
       <workItem from="1631022853780" duration="294000" />
       <workItem from="1631027414503" duration="9244000" />
-      <workItem from="1631095639766" duration="7786000" />
+      <workItem from="1631095639766" duration="10531000" />
     </task>
     <task id="LOCAL-00001" summary="starting the project.">
       <created>1630945264428</created>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631097331297</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aDDING TESTS Class but there are still some errors that must be fixed">
+      <created>1631106932225</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631106932225</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,53 +202,54 @@
     <MESSAGE value="starting the project." />
     <MESSAGE value="adding the customer and the category models , services , DTO and controller" />
     <MESSAGE value="adding Customer entity and DTo and the controller for supporting different Http methods against that dto ." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Customer entity and DTo and the controller for supporting different Http methods against that dto ." />
+    <MESSAGE value="aDDING TESTS Class but there are still some errors that must be fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="aDDING TESTS Class but there are still some errors that must be fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1631103218285">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="527" y="105" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1631103218285" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1631105536604">
+    <state width="1248" height="408" key="GridCell.Tab.0.bottom" timestamp="1631114774062">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631105536604" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1631105536600">
+    <state width="1248" height="408" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631114774062" />
+    <state width="1248" height="408" key="GridCell.Tab.0.center" timestamp="1631114774060">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1631105536600" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1631105536598">
+    <state width="1248" height="408" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1631114774060" />
+    <state width="1248" height="408" key="GridCell.Tab.0.left" timestamp="1631114774058">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1631105536598" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1631105536602">
+    <state width="1248" height="408" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1631114774058" />
+    <state width="1248" height="408" key="GridCell.Tab.0.right" timestamp="1631114774061">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1631105536602" />
-    <state width="1248" height="172" key="GridCell.Tab.1.bottom" timestamp="1631105536610">
+    <state width="1248" height="408" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1631114774061" />
+    <state width="1248" height="408" key="GridCell.Tab.1.bottom" timestamp="1631114774064">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631105536610" />
-    <state width="1248" height="172" key="GridCell.Tab.1.center" timestamp="1631105536607">
+    <state width="1248" height="408" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1631114774064" />
+    <state width="1248" height="408" key="GridCell.Tab.1.center" timestamp="1631114774063">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1631105536607" />
-    <state width="1248" height="172" key="GridCell.Tab.1.left" timestamp="1631105536606">
+    <state width="1248" height="408" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1631114774063" />
+    <state width="1248" height="408" key="GridCell.Tab.1.left" timestamp="1631114774063">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1631105536606" />
-    <state width="1248" height="172" key="GridCell.Tab.1.right" timestamp="1631105536609">
+    <state width="1248" height="408" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1631114774063" />
+    <state width="1248" height="408" key="GridCell.Tab.1.right" timestamp="1631114774064">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1631105536609" />
+    <state width="1248" height="408" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1631114774064" />
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1631019851512">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1631019851512" />
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1631097334472">
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1631106936368">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1631097334472" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1631106936368" />
     <state x="452" y="169" width="524" height="463" key="extract.method.dialog" timestamp="1631032311145">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
