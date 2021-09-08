@@ -32,16 +32,16 @@ public class BootStrap implements CommandLineRunner {
         hassan.setLastName("javadi");
 
         Customer farzad = new Customer();
-        hassan.setName("farzad");
-        hassan.setLastName("javadi");
+        farzad.setName("farzad");
+        farzad.setLastName("javadi");
 
         Customer razi = new Customer();
-        hassan.setName("razi");
-        hassan.setLastName("Asghari");
+        razi.setName("razi");
+        razi.setLastName("Asghari");
 
         Customer reza = new Customer();
-        hassan.setName("Reza");
-        hassan.setLastName("khizab");
+        reza.setName("Reza");
+        reza.setLastName("khizab");
 
         customerRepository.save(hassan);
         customerRepository.save(razi);

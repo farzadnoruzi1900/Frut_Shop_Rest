@@ -4,6 +4,15 @@ public class CustomerDTO {
     private Long id;
     private String name;
     private String lastName;
+    private String url;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     public Long getId() {
         return id;
@@ -32,9 +41,10 @@ public class CustomerDTO {
     public CustomerDTO() {
     }
 
-    public CustomerDTO(Long id, String name, String lastName) {
+    public CustomerDTO(Long id, String name, String lastName,String url) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
+        this.url=url;
     }
 }
